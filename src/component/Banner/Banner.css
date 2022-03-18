@@ -1,0 +1,45 @@
+.bg-image {
+  background-image: url("../../300ppi/Artboard 2.png");
+  height: auto;
+  width: 100%;
+}
+.text {
+  color: rgb(52, 248, 52);
+  display: flex;
+  justify-content: space-evenly;
+}
+.border {
+  width: 700px;
+}
+.build {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%) ;
+  height: 80px ;
+  margin-top: 20px;
+}
+.img-wrapper {  
+  width: 400px;
+  height: 100px;
+  overflow: hidden; 
+  margin-top: auto;
+}
+.inner-img {
+  transition: 0.3s;
+}
+
+.inner-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.trailer {
+  background-color: rgba(255, 0, 0, 0.204); 
+  width: 230px;
+  height: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.text-trailer {
+  color: rgb(60, 206, 96);
+  display: flex;
+  justify-content: space-evenly;
+}

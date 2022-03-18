@@ -1,0 +1,21 @@
+.electric-image {
+  background-image: url("../../300ppi/Artboard 24.png");
+  width: auto;
+  height: 100%;
+  background-size: cover;
+  background-position: 0%;
+  background-repeat: no-repeat;
+}
+
+.electric-wrapper {  
+  width: 400px;
+  overflow: hidden; 
+  margin-top: auto;
+}
+.inner-electric {
+  transition: 0.3s;
+}
+
+.inner-electric:hover {
+  transform: scale(1.1);
+}

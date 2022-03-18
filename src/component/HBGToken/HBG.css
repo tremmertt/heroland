@@ -1,0 +1,75 @@
+.hbg-image {
+    background-image: url("../../300ppi/Artboard 28.png");
+    width: auto;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .roadmap {
+    transition: transform .8s ease-in-out;
+  }
+  .roadmap:hover {
+    transform: rotate(360deg);
+  }
+
+  .piechart-bg {
+    background-image: url("../../300ppi/Artboard 82.png");
+    width: auto;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .roadmap-bg {
+    background-image: url("../../300ppi/Artboard 41.png");
+    width: auto;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .pie-chart-wrapper {  
+    width: 400px;
+    overflow: hidden; 
+    margin-top: auto;
+  }
+  .inner-pie-chart {
+    transition: 0.3s;
+  }
+  
+  .inner-pie-chart:hover {
+    transform: scale(1.1);
+    cursor: progress;
+  }
+
+  .text-15 {
+    color: #03e456;
+    font-weight: bold;
+  }
+.text-5 {
+  color: #73beb5;
+  font-weight: bold;
+}
+
+.text15 {
+  color: #af0803;
+  font-weight: bold;
+}
+.text-25 {
+  color: #bf615e;
+  font-weight: bold;
+}
+.text15-1 {
+  color: #9bc602;
+  font-weight: bold;
+}
+.text-12 {
+  color: #79843b;
+  font-weight: bold;
+}
+.text-10 {
+  color: #515989;
+  font-weight: bold;
+}
+
