@@ -1,8 +1,46 @@
 .benefit-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../300ppi/Artboard 24.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../300ppi/Artboard 24.png");
   width: auto;
   height: 100%;
   background-size: cover;
   background-position: 0%;
   background-repeat: repeat;
+}
+/* #carouselExampleIndicators {
+  height: 50px;
+  width: 50px;
+  background-color: #003422;
+} */
+
+/* .active {
+  background-color: #00ff60;
+} */
+.carousel-custom {
+  width: 800px;
+  height: 70%;
+}
+@media only screen and (max-width: 768px ) {
+  .carousel-custom {
+    width: 800px;
+    height: 100%;
+  }
+}
+
+.carousel-indicators > .carousel-btn.active {
+  width: 20px !important;
+  height: 20px !important;
+  background-color: #00ff60 !important;
+}
+.carousel-indicators > .carousel-btn {
+  width: 20px !important;
+  height: 20px !important;
+  background-color: #003422 !important;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.carousel-inner {
+  display: inline-flex !important;
+  align-items: center !important;
 }
